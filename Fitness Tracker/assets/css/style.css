@@ -131,14 +131,15 @@
 			}
 			input,textarea {
 				  width: 100%;
-				  padding: 0.8rem;
+				  padding: 10px;
 				  border: 1px solid #ccc;
 				  border-radius: 4px;
-				  font-size: 1rem;
+				  font-size: 16px;
 				}
 				textarea {
 				  resize: vertical;
 				  min-height: 100px;
+				  margin:0px 0px 10px 0px;
 				}
 				
 				button {
@@ -147,7 +148,7 @@
 				  color: white;
 				  border: none;
 				  border-radius: 4px;
-				  font-size: 1rem;
+				  font-size: 16px;
 				  cursor: pointer;
 				  text-align: center;
 				}
@@ -155,7 +156,7 @@
 						  background-color: white;
 						  color: black;
 						  font-weight: bold;
-						  padding: 0.75rem;
+						  padding: 14px;
 						  text-align: left;
 						}
 				table {
