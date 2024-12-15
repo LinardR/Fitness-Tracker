@@ -32,8 +32,6 @@
             text-decoration: underline;
         }
 		
-
-
 		.cover-bg h1 {
 			    font-size: 36px;
 				font-weight: bold;
@@ -71,18 +69,11 @@
             background: url("../../assets/img/settings.jpg");
         }
 		.text-background {
-			 background: url("../../assets/img/Foto1.jpg");
+			 background: url("../../assets/img/Foto1.jpg");.
+			 background-position:top;
 		}
 		
-		.profile-background h1 {
-			    font-size: 36px;
-				font-weight: bold;
-				text-shadow: 0 0 11px black;
-		}
-		.profile-background p {
-			    font-size: 18px;
-				text-shadow: 0 0 11px black;
-		}
+
 		
 		
 		main {
