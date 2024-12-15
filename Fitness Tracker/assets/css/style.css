@@ -81,6 +81,9 @@
 		.settings-background {
             background: url("../../assets/img/settings.jpg");
         }
+		.text-background {
+			 background: url("../../assets/img/Foto1.jpg");
+		}
 		
 		.profile-background h1 {
 			    font-size: 36px;
@@ -115,7 +118,7 @@
 			color:#000;
         }		
 		
-		#profile, #profile-display, #log-workout, #workout-history, #settings, #nutrition, #forums, #challenges, #group-activities, #progress-tracker {
+		section {
 			  max-width: 600px;
 			  margin: 25px auto;
 			  padding: 20px;
