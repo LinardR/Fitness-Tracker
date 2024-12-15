@@ -1,0 +1,180 @@
+		body {
+            margin: 0;
+            font-family: sans-serif;
+            background-color: #fff;
+            color: #333;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #000;
+            color: white;
+			padding: 16px 32px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+		.logo a {
+            font-size: 24px;
+            font-weight: bold;
+			text-decoration: none;
+			color:#fff;
+        }
+        .nav-links {
+            display: flex;
+            gap: 16px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+		
+		.center-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .center-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+		.cover-bg h1 {
+			    font-size: 36px;
+				font-weight: bold;
+
+		}
+		.cover-bg p {
+			    font-size: 18px;
+		}
+		 .cover-bg {
+			color: white;
+            padding: 150px;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+			background-position: center !important;
+			background-size: cover !important;
+			text-shadow: 0 0 11px #000;
+		 }
+		 .profile-background {
+            background: url("../../assets/img/profile.jpg");
+        }
+		.progress-background {
+            background: url("../../assets/img/Foto1.jpg");
+        }
+		.workouts-background {
+            background: url("../../assets/img/workouts.jpg");
+        }
+		.community-background {
+            background: url("../../assets/img/community.jpg");
+        }
+		.nutrition-background {
+            background: url("../../assets/img/nutrition.jpg");
+        }
+		.settings-background {
+            background: url("../../assets/img/settings.jpg");
+        }
+		
+		.profile-background h1 {
+			    font-size: 36px;
+				font-weight: bold;
+				text-shadow: 0 0 11px #000;
+		}
+		.profile-background p {
+			    font-size: 18px;
+				text-shadow: 0 0 11px #000;
+		}
+		
+		
+		main {
+		  padding: 12px;
+		}
+		section {
+		  margin-bottom: 12px;
+		  background: white;
+		  padding: 20px;
+		  border-radius: 8px;
+		  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		}
+		 footer {
+		  text-align: center;
+		  padding: 5px;
+		  background: #333;
+		  color: white;
+		}
+        section a {
+			text-decoration: none;
+            font-size: 16px;
+			color:#000;
+        }		
+		
+		#profile, #profile-display, #log-workout, #workout-history, #settings, #nutrition, #forums, #challenges, #group-activities, #progress-tracker {
+			  max-width: 600px;
+			  margin: 25px auto;
+			  padding: 20px;
+			  background: white;
+			  border-radius: 8px;
+			  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		}
+		.profile-row, .settings-row
+			{
+				padding: 12px;
+				background: white;
+				border-radius: 8px;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+				margin: 5px 0px 15px 0px;
+			}
+					 
+		
+			form {
+		  display: flex;
+		  flex-direction: column;
+		  gap: 20px;
+			}
+			.form-row {
+		  display: flex;
+		  flex-direction: column;
+		}
+		label {
+			  font-weight: bold;
+			  margin-bottom: 0.5rem;
+			}
+			input,textarea {
+				  width: 100%;
+				  padding: 0.8rem;
+				  border: 1px solid #ccc;
+				  border-radius: 4px;
+				  font-size: 1rem;
+				}
+				textarea {
+				  resize: vertical;
+				  min-height: 100px;
+				}
+				
+				button {
+				  padding: 12px;
+				  background-color: #000;
+				  color: white;
+				  border: none;
+				  border-radius: 4px;
+				  font-size: 1rem;
+				  cursor: pointer;
+				  text-align: center;
+				}
+				thead th {
+						  background-color: #fff;
+						  color: #000;
+						  font-weight: bold;
+						  padding: 0.75rem;
+						  text-align: left;
+						}
+				table {
+					width:100%
+					}
